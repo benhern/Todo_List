@@ -1,0 +1,148 @@
+body {
+  background-color: orange !important;
+  background-image: url("/images/StickyWall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+a {
+  font-family: "Kaushan Script", cursive !important;
+  color: grey !important;
+  background-color: #fcf8e8 !important;
+  width: 300px !important;
+}
+a:hover {
+  background-color: #d3e4cd !important;
+  color: green !important;
+}
+
+.strike {
+  text-decoration: line-through !important;
+  text-decoration-color: red !important;
+}
+
+button {
+  font-family: "Kaushan Script", cursive !important;
+
+  color: #f97b22 !important;
+  background-color: #fcf8e8 !important;
+}
+button:hover {
+  background-color: #eee2de !important;
+}
+
+button:active {
+  color: red !important;
+  text-decoration-line: underline;
+  text-decoration-style: solid !important;
+}
+button:focus {
+  color: red !important;
+  text-decoration-line: underline;
+  text-decoration-style: solid !important;
+}
+button:target {
+  color: red !important;
+  text-decoration-line: underline;
+  text-decoration-style: solid !important;
+}
+
+h1 {
+  color: #f97b22 !important;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 60px !important;
+  text-decoration-line: underline;
+  text-decoration-style: wavy !important;
+}
+
+input {
+  font-family: "Permanent Marker", cursive !important;
+  outline: none !important;
+  border-style: none;
+  caret-color: orange;
+  background-color: rgba(160, 191, 224, 0);
+  color: #804674 !important;
+  font-size: 20px !important;
+}
+
+.date {
+  font-family: "Kaushan Script", cursive !important;
+  color: red !important;
+  padding-top: 25px;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  border: solid !important;
+  border-radius: 30px;
+  padding: 50px 0px 0px 0px;
+  margin: 15rem 3rem 0px 3rem;
+  background-color: rgba(160, 191, 224, 0.6); /* Black w/opacity/see-through */
+  box-shadow: 0 15px 25px 5px rgba(255, 204, 112, 0.3);
+}
+
+#content {
+  box-shadow: 0 15px 25px 15px rgba(39, 40, 41, 0.3);
+  border-radius: 10px;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+
+
+
+
+@media (min-width: 375px) and (max-width: 375) {
+  .centered {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    border: solid !important;
+    border-radius: 30px;
+    padding: 30px 0px 0px 0px;
+    margin: 5.5rem 0.9rem 0px 0.9rem;
+    background-color: rgba(160, 191, 224, 0.6);
+    box-shadow: 0 15px 25px 5px rgba(255, 204, 112, 0.3);
+  }
+}
+
+@media (min-width: 390px) and (max-width: 844px) {
+  .centered {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    border: solid !important;
+    border-radius: 30px;
+    padding: 30px 0px 0px 0px;
+    margin: 15.3rem 1.6rem 0px 1.6rem;
+    background-color: rgba(160, 191, 224, 0.6);
+    box-shadow: 0 15px 25px 5px rgba(255, 204, 112, 0.3);
+  }
+}
+
+@media (min-width: 845px) and (max-width: 886px) {
+  .centered {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    border: solid !important;
+    border-radius: 30px;
+    padding: 30px 0px 0px 0px;
+    margin: 10.3rem 8rem 0px 8rem;
+    background-color: rgba(160, 191, 224, 0.6);
+    box-shadow: 0 15px 25px 5px rgba(255, 204, 112, 0.3);
+  }
+}
+
+
+
+
+
